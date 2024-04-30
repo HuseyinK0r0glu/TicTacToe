@@ -22,7 +22,7 @@ public class TicTacToe implements ActionListener{
         frame.setVisible(true);
 
 
-        text_Field.setBackground(new Color(25,25,25));
+        text_Field.setBackground(new Color(25,24,25));
         text_Field.setForeground(new Color(25,255,0));
         text_Field.setFont(new Font("Ink Free",Font.BOLD,75));
         text_Field.setHorizontalAlignment(JLabel.CENTER);
