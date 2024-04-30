@@ -60,7 +60,7 @@ public class TicTacToe implements ActionListener{
             if(e.getSource()==buttons[i]){
                 if(player1_turn){
                     if(buttons[i].getText()==""){
-                        buttons[i].setForeground(new Color(255,0,0));
+                        buttons[i].setForeground(new Color(250,0,0));
                         buttons[i].setText("X");
                         player1_turn = false;
                         text_Field.setText("O Turn");
